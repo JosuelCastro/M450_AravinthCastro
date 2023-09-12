@@ -1,0 +1,215 @@
+.name {
+    font-family: "PixelFont", sans-serif;
+    font-size: 82px;
+    color: #fff;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 50px 2vw;
+  transform-style: preserve-3d;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+  position: relative;
+}
+
+.card-grid.active {
+  z-index: 99;
+}
+
+.self-introduction {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: 'VT323', monospace;
+  color: #000000;
+  margin-top: 20px; /* Add some spacing to the top */
+}
+
+.self-introduction-heading {
+  font-family: "Josuel", sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.self-introduction-text {
+  font-family: "Josuel", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.skills-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.skills-heading {
+  font-family: "PixelFont", sans-serif;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  font-family: "PixelFont", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-item:hover {
+  transform: translateY(-10px);
+}
+
+.skill-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+
+/* Looper styles */
+@keyframes slideAnim {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .looper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .looper__innerList {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+  }
+  
+  .looper__innerList[data-animate="true"] .looper__listInstance {
+    animation: slideAnim linear infinite;   
+  }
+  
+  .looper__listInstance {
+    display: flex;
+    width: max-content;
+    animation: none;
+  }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 50px 2vw;
+  transform-style: preserve-3d;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px;
+  position: relative;
+}
+
+.card-grid.active {
+  z-index: 99;
+}
+
+@media screen and (min-width: 900px) {
+  .card-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+
+  :global( .card-grid > .card ) {
+    --row: 1;
+    grid-column: 1;
+    grid-row: var(--row);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  :global( .card-grid > .card:nth-child(1n) ) {
+    position: relative;
+    left: -50px;
+    top: 10px;
+    z-index: calc(var(--card-scale) * 10 + 50);
+    transform: translate3d(0, 0, 0.1px) rotateZ(-5deg);
+    opacity: 1;
+  }
+  :global( .card-grid > .card:nth-child(2n) ) {
+    left: 0px;
+    top: -10px;
+    z-index: calc(var(--card-scale) * 10 + 49);
+    transform: translate3d(0, 0, 0.1px) rotateZ(0deg);
+    opacity: 0.99;
+  }
+  :global( .card-grid > .card:nth-child(3n) ) {
+    left: 50px;
+    top: 0px;
+    z-index: calc(var(--card-scale) * 10 + 48);
+    transform: translate3d(0, 0, 0.1px) rotateZ(5deg);
+    opacity: 0.99;
+  }
+  :global( .card-grid > .card.interacting) ,
+  :global( .card-grid > .card.active ) {
+    opacity: 1;
+  }
+
+  :global( .card-grid > .card:nth-child(n+4):nth-child(-n+6) ) { grid-row: 2; }
+  :global( .card-grid > .card:nth-child(n+7):nth-child(-n+9) ) { grid-row: 3; }
+  :global( .card-grid > .card:nth-child(n+10):nth-child(-n+12) ) { grid-row: 4; }
+  :global( .card-grid > .card:nth-child(n+13):nth-child(-n+15) ) { grid-row: 5; }
+  :global( .card-grid > .card:nth-child(n+16):nth-child(-n+18) ) { grid-row: 6; }
+  :global( .card-grid > .card:nth-child(n+19) ) {
+    grid-row: auto;
+    grid-column: auto;
+    transform: none!important;
+    left: 0!important;
+    top: 0!important;
+  }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .card-grid {
+    max-width: 420px;
+    margin: auto;
+  }
+  :global( .card-grid > .card:nth-child(1n) ) {
+    left: -100px;
+    top: 10px;
+    transform: translate3d(0, 0, 0.1px) rotateZ(-5deg);
+  }
+  :global( .card-grid > .card:nth-child(2n) ) {
+    left: 0px;
+    top: -10px;
+    transform: translate3d(0, 0, 0.1px) rotateZ(0deg);
+  }
+  :global( .card-grid > .card:nth-child(3n) ) {
+    left: 100px;
+    top: 0px;
+    transform: translate3d(0, 0, 0.1px) rotateZ(5deg);
+  }
+}
+
+:global( .card-grid > .card.active ) {
+  transform: translate3d(0, 0, 0.1px)!important;
+}

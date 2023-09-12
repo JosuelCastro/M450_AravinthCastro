@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "set": "sm10",
+    "name": "Squirtle",
+    "supertype": "Pokémon",
+    "subtypes": ["Basic"],
+    "types": ["Water"],
+    "number": "33",
+    "rarity": "Common",
+    "images": {
+      "small": "https://cdn.discordapp.com/attachments/884769281294880789/1146445979671863356/Portrait.jpeg",
+      "large":  "https://cdn.discordapp.com/attachments/884769281294880789/1146445979671863356/Portrait.jpeg"
+    }
+  }
+]

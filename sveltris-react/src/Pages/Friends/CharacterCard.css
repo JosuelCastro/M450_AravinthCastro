@@ -1,0 +1,127 @@
+.character-card {
+    display: flex;
+    flex-direction: column; /* Change the flex direction to column */
+    justify-content: flex-start; /* Align items to the top */
+    align-items: flex-start; /* Align items to the left */
+    margin: 20px;
+    padding: 20px;
+    border: 2px dashed #ff0000;
+    background-color: #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'PixelFont', sans-serif;
+    transition: 0.1s ease;
+}
+
+.character-card:hover{
+    border: 2px solid #ffffff;
+}
+
+.character-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%; /* Occupy the full width of the card */
+    justify-content: space-between; /* Add space between model and info */
+    transition: 0.3s ease;
+}
+
+.character-model {
+    flex: 1; /* Take available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    height: 100%; /* Fill available vertical space */
+}
+
+.character-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ff0000;
+    transition: 0.3s ease;
+    padding: 0 20px;
+    width: 100%; /* Occupy the remaining space */
+    align-self: center; /* Align info to the left */
+}
+
+.character-info h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.character-info p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.character-card.selected {
+    border: 2px solid #ffffff;
+    padding: 10px;
+}
+
+.character-name.expanded {
+    font-size: 60px;
+}
+
+.select-button {
+    margin-top: 10px;
+    align-self: center; /* Align the button to the center initially */
+    transition: 0.3s ease;
+}
+
+.character-card.selected .select-button {
+    margin-top: 10px;
+    align-self: flex-end; /* Align the button to the far right when selected */
+}
+
+.strength-bar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.strength-bar-group {
+    width: calc(50% - 10px); /* Divide the width evenly and subtract margin */
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box; /* Add this property */
+}
+
+.status-bar {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.strength-bar {
+    height: 10px;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.strength-fill {
+    height: 100%;
+    background-color: #ff0000;
+    transition: width 0.3s ease;
+}
+
+
+.character-info.expanded {
+    font-size: 60px;
+    flex-direction: column-reverse; /* Place names under the model when expanded */
+}
+
+.info-top.expanded {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.info-top.expanded p {
+    margin: 8px 0; /* Add margin between the stats */
+}
+
