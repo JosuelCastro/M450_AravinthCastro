@@ -1,5 +1,5 @@
+**Aufgabe 1**
 **Abstrakte Testfälle:**
-
 | Testfall | Beschreibung |
 |----------|--------------|
 | Testfall 1 | Kaufpreis < 15'000 CHF |
@@ -11,7 +11,6 @@
 | Testfall 7 | Kaufpreis > 25'000 CHF |
 
 **Konkrete Testfälle:**
-
 | Testfall | Kaufpreis | Erwarteter Rabatt |
 |----------|-----------|-------------------|
 | Testfall 1 | 10'000 CHF | Kein Rabatt (0%) |
