@@ -1,9 +1,8 @@
-# M450 Testing Module README
+# M450 Testing Modul
 
 ## Einführung
 
-Herzlich willkommen zum M450 Testing Module! Dieses Modul wurde entwickelt, um Ihnen einen umfassenden Einblick in die Welt des Software-Testings zu bieten. In diesem Modul werden Sie die grundlegenden Konzepte des Testens verstehen lernen und praktische Erfahrungen im Team sammeln.
-
+Herzlich willkommen zum M450 Testing Modul! In diesem modul handelt es sich um das Testing
 ## Teammitglieder
 
 - Josuel Castro
