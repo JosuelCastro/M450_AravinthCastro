@@ -10,4 +10,4 @@ Herzlich willkommen zum M450 Testing Modul! In diesem modul handelt es sich um d
 
 ## Modulübersicht
 
-Dieses Modul ist in mehrere Abschnitte unterteilt, um sicherzustellen, dass Sie ein solides Verständnis für das Thema Testing entwickeln. Jeder Abschnitt wird von Präsentationen, Übungen und Diskussionen begleitet.
+Dieses Modul ist in mehrere Abschnitte unterteilt, um sicherzustellen, dass Sie ein solides Verständnis für das Thema Testing entwickeln. Jeder Abschnitt wird von den erfüllten Aufgaben begleitet.
