@@ -5,6 +5,7 @@ import InfiniteLooper from './InfiniteLooper';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import Portrait from './Portrait.svelte?in-react';
+
 const getRandomSentence = () => {
     const sentences = [
         'Welcome to my website!',
@@ -23,17 +24,17 @@ const getRandomSentence = () => {
 
 // Retro-style skill icons (you can replace them with your own icons)
 const skills = [
-  { name: 'Web Development', icon: '🕹️' },
+    { name: 'Web Development', icon: '🕹️' },
     { name: 'UI/UX Design', icon: '💾' },
-  { name: 'Filmography', icon: '🎥' },
-
-
-  // Add more skills
+    { name: 'Filmography', icon: '🎥' },
+    // Add more skills
 ];
 
 const Home: React.FC = () => {
     const [scrollSpeed, setScrollSpeed] = useState(8);
     const [randomSentence] = useState(getRandomSentence());
+    const [birthdayTimer, setBirthdayTimer] = useState(new Date(2006, 1, 5, 0, 1));
+    const [age, setAge] = useState('');
 
     useEffect(() => {
         const handleScroll = () => {
@@ -42,13 +43,10 @@ const Home: React.FC = () => {
             // Define a base speed that increases with scrolling
             const baseSpeed = 8;
 
-
             // Calculate adjusted speeds based on scrolling
             const adjustedSpeed = baseSpeed + scrollY * 0.5;
 
-
             setScrollSpeed(adjustedSpeed);
-
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -56,6 +54,23 @@ const Home: React.FC = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            const now = new Date();
+            const diff = now - birthdayTimer;
+            const years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
+            const days = Math.floor((diff % (1000 * 60 * 60 * 24 * 365.25)) / (1000 * 60 * 60 * 24));
+            const hours = now.getHours();
+            const minutes = now.getMinutes();
+
+            setAge(`${years} years ${days} days ${hours} hours ${minutes} minutes old`);
+        }, 1000);
+
+        return () => {
+            clearInterval(interval);
+        };
+    }, [birthdayTimer]);
 
     return (
         <Grid container spacing={2}>
@@ -69,17 +84,16 @@ const Home: React.FC = () => {
             </Grid>
             <Grid item xs={12}>
                 <Grid container spacing={2}>
-                    <Grid item xs={2}/>
+                    <Grid item xs={2} />
                     <Grid item xs={2}>
-                        <Portrait/>
+                        <Portrait />
                     </Grid>
                     {/* Self Introduction */}
                     <Grid item xs={6}>
-
                         <div className="self-introduction">
                             <h2 className="self-introduction-heading">Hi, I'm Josuel Castro</h2>
                             <p className="self-introduction-text">
-                                This is a short Portfolio about myself.
+                                This is a short Portfolio about myself. I'm {age} old.
                             </p>
                         </div>
                     </Grid>
@@ -104,4 +118,4 @@ const Home: React.FC = () => {
     );
 };
 
-    export default Home;
+export default Home;

@@ -75,27 +75,25 @@
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
-            "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+            "customWebpackConfig": {
+              "path": "./cypress/webpack.config.js"
+            },
+            "builder": "@angular-builders/custom-webpack:browser",
+            "configuration": {
+              "buildOptimizer": false
+            }
           }
-        }
-      }
-    }
-  },
+        },
   "cli": {
     "analytics": false
   }
+}
+,
+"cli": {
+  "analytics": "3a3db8b5-0594-416c-a54e-c111442a198b"
+},
+"cli": {
+  "analytics": "22832e23-07c6-44a3-b412-787b544c0cfc"
 }
