@@ -23,13 +23,12 @@
 }
 
 .self-introduction {
-  background-color: #f4f4f4;
+  background-color: #000000;
   padding: 20px;
-  border-radius: 10px;
+  border: 2px solid white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   font-family: 'VT323', monospace;
-  color: #000000;
-  margin-top: 20px; /* Add some spacing to the top */
+  color: #f4f4f4;
 }
 
 .self-introduction-heading {

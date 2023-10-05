@@ -22,7 +22,6 @@ const getRandomSentence = () => {
     return sentences[randomIndex];
 };
 
-// Retro-style skill icons (you can replace them with your own icons)
 const skills = [
     { name: 'Web Development', icon: '🕹️' },
     { name: 'UI/UX Design', icon: '💾' },
@@ -30,47 +29,46 @@ const skills = [
     // Add more skills
 ];
 
+const calculateTimeDifference = () => {
+    const birthday = new Date('2006-02-05T12:01:00Z');
+    const currentTime = new Date();
+
+    const diff = currentTime.getTime() - birthday.getTime();
+
+    const diffInSeconds = diff / 1000;
+    const years = Math.floor(diffInSeconds / (60 * 60 * 24 * 365.25));
+    const days = Math.floor((diffInSeconds % (60 * 60 * 24 * 365.25)) / (60 * 60 * 24));
+    const hours = Math.floor((diffInSeconds % (60 * 60 * 24)) / (60 * 60));
+    const minutes = Math.floor((diffInSeconds % (60 * 60)) / 60);
+    const seconds = Math.floor(diffInSeconds % 60);
+
+    return { years, days, hours, minutes, seconds };
+};
+
 const Home: React.FC = () => {
     const [scrollSpeed, setScrollSpeed] = useState(8);
     const [randomSentence] = useState(getRandomSentence());
-    const [birthdayTimer, setBirthdayTimer] = useState(new Date(2006, 1, 5, 0, 1));
-    const [age, setAge] = useState('');
+    const [age, setAge] = useState(calculateTimeDifference());
 
     useEffect(() => {
         const handleScroll = () => {
             const scrollY = window.scrollY;
-
-            // Define a base speed that increases with scrolling
             const baseSpeed = 8;
-
-            // Calculate adjusted speeds based on scrolling
             const adjustedSpeed = baseSpeed + scrollY * 0.5;
-
             setScrollSpeed(adjustedSpeed);
         };
 
+        const intervalId = setInterval(() => {
+            setAge(calculateTimeDifference());
+        }, 1000); // Update every second
+
         window.addEventListener('scroll', handleScroll);
+
         return () => {
+            clearInterval(intervalId);
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            const now = new Date();
-            const diff = now - birthdayTimer;
-            const years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
-            const days = Math.floor((diff % (1000 * 60 * 60 * 24 * 365.25)) / (1000 * 60 * 60 * 24));
-            const hours = now.getHours();
-            const minutes = now.getMinutes();
-
-            setAge(`${years} years ${days} days ${hours} hours ${minutes} minutes old`);
-        }, 1000);
-
-        return () => {
-            clearInterval(interval);
-        };
-    }, [birthdayTimer]);
 
     return (
         <Grid container spacing={2}>
@@ -88,13 +86,16 @@ const Home: React.FC = () => {
                     <Grid item xs={2}>
                         <Portrait />
                     </Grid>
-                    {/* Self Introduction */}
                     <Grid item xs={6}>
-                        <div className="self-introduction">
+                        <div style={{ border: "2px solid white"}}>
+                        <div style={{ border: "2px solid black"}}>
+                            <div className="self-introduction">
                             <h2 className="self-introduction-heading">Hi, I'm Josuel Castro</h2>
                             <p className="self-introduction-text">
-                                This is a short Portfolio about myself. I'm {age} old.
+                                This is a short Portfolio about myself. I'm <span>{age.years}</span> years <span>{age.days}</span> days <span>{age.hours}</span> hours  <span>{age.minutes}</span> minutes  <span>{age.seconds}</span> seconds old :)
                             </p>
+                        </div>
+                        </div>
                         </div>
                     </Grid>
                 </Grid>
@@ -103,7 +104,7 @@ const Home: React.FC = () => {
                 <div className="skills-container">
                     <h2 className="skills-heading">Skills</h2>
                     <div className="skills-list">
-                        {skills.map(skill => (
+                        {skills.map((skill) => (
                             <Grid item xs={3} key={skill.name}>
                                 <div className="skill-item">
                                     <span className="skill-icon">{skill.icon}</span>
