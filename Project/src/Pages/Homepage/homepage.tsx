@@ -92,7 +92,7 @@ const Home: React.FC = () => {
                             <div className="self-introduction">
                             <h2 className="self-introduction-heading">Hi, I'm Josuel Castro</h2>
                             <p className="self-introduction-text">
-                                This is a short Portfolio about myself. I'm <span>{age.years}</span> years <span>{age.days}</span> days <span>{age.hours}</span> hours  <span>{age.minutes}</span> minutes  <span>{age.seconds}</span> seconds old :)
+                                This is a short Portfolio about myself. I'm <span>{age.years}</span> years <span>{age.days}</span> days <span>{age.hours}</span> hours  <span>{age.minutes}</span> minutes  (and <span>{age.seconds}</span> seconds old)
                             </p>
                         </div>
                         </div>
