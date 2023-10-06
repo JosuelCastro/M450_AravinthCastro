@@ -1,5 +1,5 @@
 :root {
-  
+
   --card-aspect: 0.718;
   --card-radius: 4.55% / 3.5%;
   --card-edge: hsl(47, 100%, 78%);
@@ -19,7 +19,6 @@
   --sunpillar-clr-4: var(--sunpillar-4);
   --sunpillar-clr-5: var(--sunpillar-5);
   --sunpillar-clr-6: var(--sunpillar-6);
-
 }
 
 .card {

@@ -81,18 +81,19 @@ const Home: React.FC = () => {
                 </InfiniteLooper>
             </Grid>
             <Grid item xs={12}>
-                <Grid container spacing={2}>
-                    <Grid item xs={2} />
-                    <Grid item xs={2}>
-                        <Portrait />
+                <Grid container spacing={2} >
+                    <Grid item lg={4} md={5} xs={12} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <div className="portrait-container">
+                            <Portrait className="portrait" />
+                        </div>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item lg={8} md={7} xs={12}>
                         <div style={{ border: "2px solid white"}}>
                         <div style={{ border: "2px solid black"}}>
                             <div className="self-introduction">
-                            <h2 className="self-introduction-heading">Hi, I'm Josuel Castro</h2>
+                            <h2 className="self-introduction-heading">Hi, I'm Josuel</h2>
                             <p className="self-introduction-text">
-                                This is a short Portfolio about myself. I'm <span>{age.years}</span> years <span>{age.days}</span> days <span>{age.hours}</span> hours  <span>{age.minutes}</span> minutes  (and <span>{age.seconds}</span> seconds old)
+                                This is a short Portfolio about myself. I'm <span>{age.years}</span> years <span>{age.days}</span> days <span>{age.hours}</span> hours  <span>{age.minutes}</span> minutes  (and <span>{age.seconds}</span> seconds old). I love expressing myself in various ways. Perhaps the things I do aren't for everyone, but at least they're the way I do it.<p>Always stay true to yourself</p>
                             </p>
                         </div>
                         </div>
