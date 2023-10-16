@@ -81,24 +81,26 @@ const Home: React.FC = () => {
                 </InfiniteLooper>
             </Grid>
             <Grid item xs={12}>
-                <Grid container spacing={2} >
-                    <Grid item lg={4} md={5} xs={12} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <Grid container>
+                    <Grid item lg={1} md={1} xs={1}/>
+                    <Grid item lg={3} md={4} xs={12} sx={{ display: 'flex'}}>
                         <div className="portrait-container">
                             <Portrait className="portrait" />
                         </div>
                     </Grid>
-                    <Grid item lg={8} md={7} xs={12}>
+                    <Grid item m={2} mt={0} lg={7} md={6} xs={12}>
                         <div style={{ border: "2px solid white"}}>
-                        <div style={{ border: "2px solid black"}}>
-                            <div className="self-introduction">
-                            <h2 className="self-introduction-heading">Hi, I'm Josuel</h2>
-                            <p className="self-introduction-text">
-                                This is a short Portfolio about myself. I'm <span>{age.years}</span> years <span>{age.days}</span> days <span>{age.hours}</span> hours  <span>{age.minutes}</span> minutes  (and <span>{age.seconds}</span> seconds old). I love expressing myself in various ways. Perhaps the things I do aren't for everyone, but at least they're the way I do it.<p>Always stay true to yourself</p>
-                            </p>
-                        </div>
-                        </div>
+                            <div style={{ border: "2px solid black"}}>
+                                <div className="self-introduction">
+                                    <h2 className="self-introduction-heading">Hi, I'm Josuel</h2>
+                                    <p className="self-introduction-text">
+                                        This is a short Portfolio about myself. I'm <span>{age.years}</span> years <span>{age.days}</span> days <span>{age.hours}</span> hours  <span>{age.minutes}</span> minutes  (and <span>{age.seconds}</span> seconds old). I love expressing myself in various ways. Perhaps the things I do aren't for everyone, but at least they're the way I do it.<p>Always stay true to yourself</p>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </Grid>
+                    <Grid item lg={1} md={1} xs={1}/>
                 </Grid>
             </Grid>
             <Grid item xs={12}>

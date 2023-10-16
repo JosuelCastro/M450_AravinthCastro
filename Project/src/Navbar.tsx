@@ -3,7 +3,7 @@ import { NavLink, Route, Routes } from "react-router-dom";
 import Homepage from "./Pages/Homepage/homepage.tsx";
 import Projects from "./Pages/Projects/projects.tsx";
 import Friends from "./Pages/Friends/friends.tsx";
-import Art from "./Pages/Art/art.tsx";
+import Collection from "./Pages/Collection/Collection.tsx";
 import gsap from 'gsap';
 import clickSound from '/sounds/Tab.mp3';
 
@@ -53,8 +53,8 @@ export default function Navbar() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink onClick={playClickSound} to="/art" className={(navData) => (navData.isActive ? "Nactive" : 'none')}>
-              Art
+            <NavLink onClick={playClickSound} to="/collection" className={(navData) => (navData.isActive ? "Nactive" : 'none')}>
+              Collection
             </NavLink>
           </li>
           <li className="nav-item">
@@ -68,7 +68,7 @@ export default function Navbar() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="projects" element={<Projects />} />
-        <Route path="/art" element={<Art />} />
+        <Route path="/Collection" element={<Collection />} />
         <Route path="friends" element={<Friends />} />
       </Routes>
       </div>
