@@ -4,7 +4,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e6e8bfb-42f7-45ac-a79d-156803c58167" name="Changes" comment="" />
+    <list default="true" id="2e6e8bfb-42f7-45ac-a79d-156803c58167" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tasks/4.1 Testlevels/Übung1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tasks/4.1 Testlevels/Übung2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/AddressServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/AddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/StudentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/StudentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/repository/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/java/ch/tbz/m450/testing/tools/repository/entities/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/1-getting-started/todo.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/1-getting-started/todo.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/actions.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/actions.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/aliasing.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/aliasing.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/assertions.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/assertions.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/connectors.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/connectors.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/cookies.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/cookies.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/cypress_api.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/cypress_api.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/files.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/files.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/location.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/location.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/misc.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/misc.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/navigation.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/navigation.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/network_requests.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/network_requests.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/querying.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/querying.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/storage.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/storage.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/traversal.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/traversal.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/utilities.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/utilities.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/viewport.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/viewport.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/waiting.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/waiting.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/window.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/2-advanced-examples/window.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/sample_spec.cy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/e2e/sample_spec.cy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/fixtures/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/fixtures/example.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/support/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/support/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/support/e2e.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/cypress/support/e2e.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/model/student.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/model/student.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/service/student.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/service/student.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-form/student-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/app/student-list/student-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/assets/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/assets/tbz_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/assets/tbz_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/js/my-app/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/test/java/ch/tbz/m450/testing/tools/StudentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/3 Automation Testing &amp; Testingtools/spring-boot-angular-basic-lw2/src/test/java/ch/tbz/m450/testing/tools/StudentApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Grundlagen/src/PriceCalculationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/1 Grundlagen/src/PriceCalculationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Grundlagen/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/1 Grundlagen/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/WhiteBlackTesting.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/WhiteBlackTesting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/bank-software-mvn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/bank-software-mvn/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/bank-software-mvn/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/bank-software-mvn/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/bank-software-mvn/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/bank-software-mvn/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/bank-software-mvn/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/bank-software-mvn/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/bank-software-mvn/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/bank-software-mvn/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/bank-software-mvn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/bank-software-mvn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/bank-software-mvn/src/main/java/ch/tbz/bank/software/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/bank-software-mvn/src/main/java/ch/tbz/bank/software/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/bank-software-mvn/src/main/java/ch/tbz/bank/software/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/bank-software-mvn/src/main/java/ch/tbz/bank/software/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/bank-software-mvn/src/main/java/ch/tbz/bank/software/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/bank-software-mvn/src/main/java/ch/tbz/bank/software/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/bank-software-mvn/src/main/java/ch/tbz/bank/software/ExchangeRateOkhttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/bank-software-mvn/src/main/java/ch/tbz/bank/software/ExchangeRateOkhttp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/bank-software-mvn/src/main/java/ch/tbz/bank/software/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/bank-software-mvn/src/main/java/ch/tbz/bank/software/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Teststrategie/teststratRead.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/teststratRead.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/Testtratagie/WhiteBlackTesting.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +109,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -25,25 +123,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/josu/Documents/GitHub/M450_AravinthCastro&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Runtime.Targets.Configurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/josu/Documents/GitHub/M450_AravinthCastro/Tasks/4 Testlevels",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Runtime.Targets.Configurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.PriceCalculationTest">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tasks/4 Testlevels" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="PriceCalculationTest (1)" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-20.0.2/Contents/Home" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -72,6 +177,7 @@
       <workItem from="1693901381065" duration="120000" />
       <workItem from="1693901886387" duration="720000" />
       <workItem from="1693902729480" duration="19000" />
+      <workItem from="1698051928001" duration="3511000" />
     </task>
     <servers />
   </component>

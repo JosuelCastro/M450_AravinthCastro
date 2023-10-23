@@ -1,4 +1,4 @@
-# Testfälle für das M450 Testing Module
+# Testing in Cognizant (Firma Josuel)
 
 ## Black-Box Testfälle
 
@@ -99,3 +99,27 @@
 3. Überprüfen Sie, ob das Konto erfolgreich gelöscht wurde.
 
 **Erwartetes Ergebnis:** Das ausgewählte Konto sollte erfolgreich gelöscht werden.
+
+## Verbesserungsvorschläge und Best Practices
+
+1. **Kommentierung:** Fügen Sie Kommentare hinzu, um den Code besser zu dokumentieren und zu erklären.
+
+2. **Try-Catch-Blöcke optimieren:** Verbessern Sie die Verwendung von Try-Catch-Blöcken, um spezifische Ausnahmen zu behandeln und aussagekräftige Fehlermeldungen anzuzeigen.
+
+3. **Exception-Klassen:** Erstellen Sie benutzerdefinierte Exception-Klassen, um spezifische Fehlerfälle besser zu behandeln und Fehlermeldungen zu vereinfachen.
+
+4. **Tests schreiben:** Implementieren Sie Unit-Tests für die Methoden, um sicherzustellen, dass sie wie erwartet funktionieren.
+
+5. **Validierung und Input-Überprüfung:** Fügen Sie zusätzliche Validierungen und Überprüfungen für Benutzereingaben hinzu, um Fehler und ungültige Eingaben zu verhindern.
+
+6. **Verwendung von Enums:** Erwägen Sie die Verwendung von Enums für Währungen und andere Konstanten, um den Code wartbarer zu machen.
+
+7. **Refactoring:** Prüfen Sie den Code auf Möglichkeiten zur Verbesserung der Lesbarkeit und Effizienz, z.B. durch Aufteilen
+
+ langer Methoden in kleinere Funktionen.
+
+8. **Logging:** Implementieren Sie Logging, um Fehler und Aktionen im Programmverlauf zu protokollieren.
+
+9. **Dokumentation:** Fügen Sie eine detaillierte Dokumentation hinzu, die beschreibt, wie das Programm funktioniert und wie es verwendet werden kann.
+
+Diese Verbesserungen und Best Practices können dazu beitragen, den Code robuster und wartbarer zu gestalten und die Qualität des Testing-Moduls zu erhöhen.
