@@ -5,16 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e6e8bfb-42f7-45ac-a79d-156803c58167" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/AddressDAOMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/AddressServiceWithMockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/AddressViewControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/LastnameFirstnameRegistrationDatecomparatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/main/java/ch/bbw/addressbook/LastnameFirstnameRegistrationDatecomparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/main/java/ch/bbw/addressbook/LastnameFirstnameRegistrationDatecomparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Project/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/package-lock 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/css/cards.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/css/cards/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/data/cards.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/fonts/josulaschrift.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/fonts/pixel.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/images/Portrait.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/images/PortraitBack.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/images/glitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/images/grain.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Aryan.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Danny.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/DarthVader.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Harald.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Hendrik.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Jarah.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Joao.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Luca.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Mischa.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Motty.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Noel.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Orcun.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Pablo.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/models/Papi.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Aryan.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Bruh.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Button.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Danny.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/HaraldMueller.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Hendrik.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Hihi.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Joao.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Luca.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Mischa.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Motty.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Noel.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Orcun.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Tab.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Vater.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/sounds/Zurich.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Collection/Collection.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Collection/Collection.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Friends/CharacterCard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Friends/CharacterCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Friends/friends.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/Cards.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/InfiniteLooper.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/Portrait.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/homepage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/homepage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/lib/components/Card.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/lib/components/CardProxy.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/lib/components/alternate-arts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/lib/components/promos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/lib/helpers/Math.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/lib/stores/activeCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Homepage/lib/stores/orientation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Pages/Projects/projects.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Router/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Router/Browserrouter.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/vite.config.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/AddressServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/AddressServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/AddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/AddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/AddressbookApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/5 Abhängigkeiten Zu Schnittstellen/02_5_Addressbook_testing_vorgabe/src/test/java/ch/bbw/addressbook/AddressViewControllerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +100,16 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -42,32 +118,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/josu/Documents/GitHub/M450_AravinthCastro",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "Runtime.Targets.Configurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/josu/Documents/GitHub/M450_AravinthCastro&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tasks/4 Testlevels" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PriceCalculationTest">
     <configuration name="PriceCalculationTest (1)" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-20.0.2/Contents/Home" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -97,7 +174,10 @@
       <workItem from="1693901886387" duration="720000" />
       <workItem from="1693902729480" duration="19000" />
       <workItem from="1698051928001" duration="4233000" />
-      <workItem from="1698131178857" duration="1140000" />
+      <workItem from="1698131178857" duration="2688000" />
+      <workItem from="1698136796553" duration="1141000" />
+      <workItem from="1698137960324" duration="189000" />
+      <workItem from="1698138157065" duration="1247000" />
     </task>
     <servers />
   </component>

@@ -24,8 +24,8 @@ public class AddressServiceTest {
 
     @Test
     public void testGetAllAddresses() {
-        Address address1 = new Address(1, "John", "Doe", "123456789", new Date());
-        Address address2 = new Address(2, "Jane", "Smith", "987654321", new Date());
+        Address address1 = new Address(1, "John", "Doe", new Date());
+        Address address2 = new Address(2, "Jane", "Smith", new Date());
         when(addressDAO.readAll()).thenReturn(Arrays.asList(address1, address2));
 
         List<Address> addresses = addressService.getAllAddresses();
@@ -35,7 +35,7 @@ public class AddressServiceTest {
 
     @Test
     public void testRegisterAddress() {
-        Address address = new Address(0, "John", "Doe", "123456789");
+        Address address = new Address(0, "John", "Doe");
         addressService.registerAddress(address);
 
         verify(addressDAO, times(1)).create(any(Address.class));

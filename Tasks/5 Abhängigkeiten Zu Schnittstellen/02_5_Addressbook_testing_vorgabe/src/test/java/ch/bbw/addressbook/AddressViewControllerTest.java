@@ -24,8 +24,8 @@ public class AddressViewControllerTest {
 
     @Test
     public void testGetAddresses() {
-        Address address1 = new Address(1, "John", "Doe", "123456789", new Date());
-        Address address2 = new Address(2, "Jane", "Smith", "987654321", new Date());
+        Address address1 = new Address(1, "John", "Doe", new Date());
+        Address address2 = new Address(2, "Jane", "Smith", new Date());
         when(addressService.getAllAddresses()).thenReturn(Arrays.asList(address1, address2));
 
         addressViewController.getAddresses();

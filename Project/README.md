@@ -1,27 +1,57 @@
-# React + TypeScript + Vite
+# Ourspace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This repository contains the project from üK223 (develop Multi-User-Applications object oriented).
+We developed a Multi-User-Application, which manages users and userprofiles for the social media plattform "Ourspace". 
+This application is implemented in Java and Typescript and uses frameworks like React and Spring Boot.
 
-Currently, two official plugins are available:
+## Preperations
+ou need to install the following software on your Computer/Laptop, to use the application:  
+- Docker [Download Link](https://docs.docker.com/get-docker/)
+- Intellij [Download Link](https://www.jetbrains.com/idea/)
+- Postman [Download Link](https://www.postman.com/downloads/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Following software is needed in order to be able to obtain the application:
+- Git, Git Bash [Download Link](https://git-scm.com/downloads)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Git
+First open 'Git Bash' in any folder where you want to save the application.  
+When opened than use this command, to clone our repository:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+git clone https://github.com/luis-kueng/UEK223-Team1.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Docker
+Then you open 'Docker Desktop'. This could take a moment. 
+To start a Postgres-Docker-container, you should go to the command line (search CMD on your device) and enter the following command:
+
+#### Linux/macOS
+```
+docker-compose up
+```
+#### Windows
+```
+docker run --name postgres_db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+```
+
+The name, the password and the port should be:
+- name: postgres
+- Postgres password: postgres
+- port: 5432
+
+Type this command in your command line to see if the container is running:
+```bash
+docker ps
+```
+
+## Documentations
+
+### Swagger
+The documentation of the endpoints:
+http://localhost:8080/myapi/swagger-ui/index.html
+
+### Documentation
+https://docs.google.com/document/d/1_6aWLMWsxI-8CcnguqYmhgN-K_p7AcbNY12WwYSKWeM/edit
