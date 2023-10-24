@@ -2,31 +2,29 @@ package ch.bbw.addressbook;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 
-import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
 
-public class AddressServiceTest {
+public class AddressServiceWithMockTest {
 
     private AddressService addressService;
     private AddressDAO addressDAO;
 
     @BeforeEach
     public void setUp() {
-        addressDAO = Mockito.mock(AddressDAO.class);
+        addressDAO = new AddressDAOMock();
         addressService = new AddressService(addressDAO);
     }
 
     @Test
-    public void testGetAllAddresses() {
+    public void testGetAllAddressesWithMock() {
         Address address1 = new Address(1, "John", "Doe", "123456789", new Date());
         Address address2 = new Address(2, "Jane", "Smith", "987654321", new Date());
-        when(addressDAO.readAll()).thenReturn(Arrays.asList(address1, address2));
+        addressDAO.create(address1);
+        addressDAO.create(address2);
 
         List<Address> addresses = addressService.getAllAddresses();
         assertNotNull(addresses);
@@ -34,10 +32,12 @@ public class AddressServiceTest {
     }
 
     @Test
-    public void testRegisterAddress() {
+    public void testRegisterAddressWithMock() {
         Address address = new Address(0, "John", "Doe", "123456789");
         addressService.registerAddress(address);
 
-        verify(addressDAO, times(1)).create(any(Address.class));
+        Address retrievedAddress = addressDAO.read(1);
+        assertNotNull(retrievedAddress);
+        assertEquals("John", retrievedAddress.getFirstname());
     }
 }
