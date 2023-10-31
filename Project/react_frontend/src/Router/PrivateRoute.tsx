@@ -65,7 +65,7 @@ const PrivateRoute: React.FC<Props> = ({
 
   // All checks passed
   return (
-    //Pagelayout puts the Navigation, Menu etc. around the component
+    //Page layout puts the Navigation, Menu etc. around the component
     <div>
       {RouteComponent}
     </div>

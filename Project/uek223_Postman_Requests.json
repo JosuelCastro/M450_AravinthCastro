@@ -1,0 +1,569 @@
+{
+	"info": {
+		"_postman_id": "4f79fd44-7733-4858-9fcf-956e199586ef",
+		"name": "üK223 Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26777405"
+	},
+	"item": [
+		{
+			"name": "/userprofile",
+			"item": [
+				{
+					"name": "userprofile, not loged in",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Expect 403 Code, because you must be signed in, to get a userprofile\", function () {\r",
+									"    pm.response.to.have.status(403);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8080/userprofile",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"userprofile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userprofile as admin",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Expect 200 Code, because you loged in\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"const jsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"is Responsebody not Null\"), () => {\r",
+									"  pm.expect(jsonData).to.not.be.null;\r",
+									"  pm.expect(jsonData).to.not.be.undefined;\r",
+									"}\r",
+									"\r",
+									"pm.test(\"Test data type of the response\", () => {\r",
+									"  pm.expect(jsonData.id).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(jsonData.address).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(jsonData.birthdate).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(jsonData.profilePicture).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTQ0NzJkNi00ZTI1LTExZWUtYmU1Ni0wMjQyYWMxMjAwMDIiLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiQURNSU5fREVMRVRFIn0seyJhdXRob3JpdHkiOiJBRE1JTl9SRUFEIn0seyJhdXRob3JpdHkiOiJVU0VSX01PRElGWSJ9XSwiaWF0IjoxNjk0NjA2NTc0LCJleHAiOjE2OTQ3MDY1NzQsImlzcyI6InVrMjIzIn0.L2ePgqlNKKsyEnVJ8sh6JzUWZtiO2T8gHU9aRe9BE9M",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8080/userprofile",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"userprofile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userprofile as user",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Expect 200 Code, because you loged in\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"const jsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"is Responsebody not Null\"), () => {\r",
+									"  pm.expect(jsonData).to.not.be.null;\r",
+									"  pm.expect(jsonData).to.not.be.undefined;\r",
+									"}\r",
+									"\r",
+									"pm.test(\"Test data type of the response\", () => {\r",
+									"  pm.expect(jsonData.id).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(jsonData.address).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(jsonData.birthdate).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(jsonData.profilePicture).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTQ0N2U4ZS00ZTI1LTExZWUtYmU1Ni0wMjQyYWMxMjAwMDIiLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiQURNSU5fREVMRVRFIn1dLCJpYXQiOjE2OTQ2MDYwOTIsImV4cCI6MTY5NDcwNjA5MiwiaXNzIjoidWsyMjMifQ.w6JYAbM1gg87J9k2MPeeQJiyhvrPoiGObVzaq966PZk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8080/userprofile",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"userprofile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userprofile as user",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Expect 200 Code, because you logged in\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"const responseJsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"is Response body not Null\", () => {\r",
+									"  pm.expect(responseJsonData).to.not.be.null;\r",
+									"  pm.expect(responseJsonData).to.not.be.undefined;\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Test data type of the response\", () => {\r",
+									"  pm.expect(responseJsonData.id).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(responseJsonData.address).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(responseJsonData.birthdate).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(responseJsonData.profilePicture).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTQ0N2U4ZS00ZTI1LTExZWUtYmU1Ni0wMjQyYWMxMjAwMDIiLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiQURNSU5fREVMRVRFIn1dLCJpYXQiOjE2OTQ2MDY3NDQsImV4cCI6MTY5NDcwNjc0NCwiaXNzIjoidWsyMjMifQ.AGfzu7NjTVce1wuJWjFqdECqYXmnqQi3yHYhBxEKyaM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"address\": \"{{$randomStreetAddress}}\",\r\n    \"birthdate\": \"{{$randomDatePast}}\",\r\n    \"profilePicture\": \"{{$randomCatsImage}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/userprofile",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"userprofile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userprofile as admin",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Expect 200 Code, because you are loged in\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"const jsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"is Responsebody not Null\"), () => {\r",
+									"  pm.expect(jsonData).to.not.be.null;\r",
+									"  pm.expect(jsonData).to.not.be.undefined;\r",
+									"}\r",
+									"\r",
+									"pm.test(\"Test data type of the response\", () => {\r",
+									"  pm.expect(jsonData.id).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(jsonData.address).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(jsonData.birthdate).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"  pm.expect(jsonData.profilePicture).to.be.satisfy((value) => value === null || typeof value === \"string\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiQURNSU5fUkVBRCJ9LHsiYXV0aG9yaXR5IjoiVVNFUl9NT0RJRlkifSx7ImF1dGhvcml0eSI6IkFETUlOX0RFTEVURSJ9XSwic3ViIjoiZTE0NDcyZDYtNGUyNS0xMWVlLWJlNTYtMDI0MmFjMTIwMDAyIiwiaWF0IjoxNjk0NjA0NzI2LCJleHAiOjE2OTQ3MDQ3MjYsImlzcyI6InVrMjIzIn0.e0W4knftfSusPf-GXSEcJHSwTeD3lBudRmXlk01Te_A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"address\": \"{{$randomStreetAddress}}\",\r\n    \"birthdate\": \"{{$randomDatePast}}\",\r\n    \"profilePicture\": \"{{$randomImageUrl}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/userprofile",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"userprofile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userprofile, not loged in",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Expect 403 Code, because you must be signed in, to get a userprofile\", function () {\r",
+									"    pm.response.to.have.status(403);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"address\": \"Bananenstrasse 11\",\r\n    \"birthdate\": \"{{$randomDatePast}}\",\r\n    \"profile_picture\": \"{{$randomImageUrl}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/userprofile",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"userprofile"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "other",
+			"item": [
+				{
+					"name": "admin login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Response status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Authorization header is present\", () => {\r",
+									"  pm.response.to.have.header(\"Authorization\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"samuel@gmail.com\",\r\n  \"password\": \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/user/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Response status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Authorization header is present\", () => {\r",
+									"  pm.response.to.have.header(\"Authorization\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"loris@gmail.com\",\r\n  \"password\": \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/user/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "/user/register",
+			"item": [
+				{
+					"name": "new user",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Expect 201 Code, because created new user\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"{{$randomFullName}}\",\r\n    \"email\": \"{{$randomEmail}}\",\r\n    \"password\": \"{{$RandomPassword}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8080/user/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "/user",
+			"item": [
+				{
+					"name": "user with page & amount",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"\r",
+									"pm.test(\"Response status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response body is an array\", function () {\r",
+									"    pm.expect(pm.response.json()).to.be.an('array');\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTQ0NzJkNi00ZTI1LTExZWUtYmU1Ni0wMjQyYWMxMjAwMDIiLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiQURNSU5fREVMRVRFIn0seyJhdXRob3JpdHkiOiJVU0VSX01PRElGWSJ9LHsiYXV0aG9yaXR5IjoiQURNSU5fUkVBRCJ9XSwiaWF0IjoxNjk0NTg5NjU5LCJleHAiOjE2OTQ2ODk2NTksImlzcyI6InVrMjIzIn0.a_mLNNnBphlN2SuDBpMOfmX81xPVOnF-O-3SKVnR2YQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8080/user?page=0&amount=8",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "amount",
+									"value": "8"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

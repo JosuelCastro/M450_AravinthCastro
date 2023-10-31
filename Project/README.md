@@ -21,7 +21,7 @@ First open 'Git Bash' in any folder where you want to save the application.
 When opened than use this command, to clone our repository:
 
 ```bash
-git clone https://github.com/luis-kueng/UEK223-Team1.git
+git clone https://github.com/JosuelCastro/M450_AravinthCastro.git
 ```
 
 ### Docker
