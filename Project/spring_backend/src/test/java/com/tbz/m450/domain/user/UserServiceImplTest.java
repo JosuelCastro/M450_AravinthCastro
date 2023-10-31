@@ -21,7 +21,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 class UserServiceImplTest {
-    
+
     @Mock
     private UserRepository userRepository;
 

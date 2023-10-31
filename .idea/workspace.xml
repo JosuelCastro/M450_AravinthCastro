@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e6e8bfb-42f7-45ac-a79d-156803c58167" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tasks/4.2 Testlevels/Summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/4.2 Testlevels/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/4.2 Testlevels/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/spring_backend/src/test/java/com/tbz/m450/domain/user/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/spring_backend/src/test/java/com/tbz/m450/domain/user/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/2 Teststrategie/teststratRead.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/teststratRead.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <recent name="$PROJECT_DIR$/Tasks/4 Testlevels" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PriceCalculationTest">
+  <component name="RunManager">
     <configuration name="PriceCalculationTest (1)" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-20.0.2/Contents/Home" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -107,6 +107,7 @@
       <workItem from="1698138157065" duration="1247000" />
       <workItem from="1698739239137" duration="116000" />
       <workItem from="1698739389333" duration="812000" />
+      <workItem from="1698748384008" duration="852000" />
     </task>
     <servers />
   </component>
