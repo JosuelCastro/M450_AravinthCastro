@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e6e8bfb-42f7-45ac-a79d-156803c58167" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/spring_backend/src/test/java/com/tbz/m450/domain/user/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/spring_backend/src/test/java/com/tbz/m450/domain/user/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks/2 Teststrategie/teststratRead.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks/2 Teststrategie/teststratRead.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,8 @@
       <workItem from="1698138157065" duration="1247000" />
       <workItem from="1698739239137" duration="116000" />
       <workItem from="1698739389333" duration="812000" />
-      <workItem from="1698748384008" duration="852000" />
+      <workItem from="1698748384008" duration="1563000" />
+      <workItem from="1698832222921" duration="246000" />
     </task>
     <servers />
   </component>
