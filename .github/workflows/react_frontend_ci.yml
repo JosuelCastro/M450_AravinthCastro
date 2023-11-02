@@ -34,10 +34,6 @@ jobs:
         run: yarn install
         working-directory: Project/react_frontend
 
-      - name: Frontend Build
-        run: yarn build
-        working-directory: Project/react_frontend
-
       - name: Start Frontend
         run: yarn start
         working-directory: Project/react_frontend
