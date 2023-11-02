@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e6e8bfb-42f7-45ac-a79d-156803c58167" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Project/react_frontend/src/components/pages/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Project/react_frontend/src/components/pages/HomePage.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="2e6e8bfb-42f7-45ac-a79d-156803c58167" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +59,6 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -108,7 +105,7 @@
       <workItem from="1698739389333" duration="812000" />
       <workItem from="1698748384008" duration="1563000" />
       <workItem from="1698832222921" duration="246000" />
-      <workItem from="1698918828071" duration="1051000" />
+      <workItem from="1698918828071" duration="713000" />
     </task>
     <servers />
   </component>
