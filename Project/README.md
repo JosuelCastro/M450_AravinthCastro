@@ -46,12 +46,3 @@ Type this command in your command line to see if the container is running:
 ```bash
 docker ps
 ```
-
-## Documentations
-
-### Swagger
-The documentation of the endpoints:
-http://localhost:8080/myapi/swagger-ui/index.html
-
-### Documentation
-https://docs.google.com/document/d/1_6aWLMWsxI-8CcnguqYmhgN-K_p7AcbNY12WwYSKWeM/edit
