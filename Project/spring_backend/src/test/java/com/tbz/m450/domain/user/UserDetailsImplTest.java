@@ -1,14 +1,8 @@
 package com.tbz.m450.domain.user;
 
-import com.tbz.m450.domain.role.Role;
-import com.tbz.m450.domain.user.User;
 import com.tbz.m450.domain.userprofile.UserProfile;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-
-import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
