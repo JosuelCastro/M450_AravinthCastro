@@ -7,6 +7,7 @@ import UserTable from "../components/pages/UserPage/UserTable";
 import UserPage from "../components/pages/UserPage/UserPage";
 import RegisterPage from "../components/pages/RegisterPage/RegisterPage";
 import Unauthorized from "./Unauthorized";
+import Navbar from "../components/organisms/Navbar";
 
 /**
  * Router component renders a route switch with all available pages
