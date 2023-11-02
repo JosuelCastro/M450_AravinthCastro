@@ -31,7 +31,7 @@ jobs:
         working-directory: Project/spring_backend
        
       - name: Install Frontend Dependencies
-        run: yarn add
+        run: yarn install
         working-directory: Project/react_frontend
 
       - name: Frontend Build
