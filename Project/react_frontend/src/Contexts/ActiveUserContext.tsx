@@ -47,7 +47,6 @@ const defaultContextValue: ActiveUserContextType = {
     checkRole: noContextProviderFound,
 };
 
-const navigate = useNavigate();
 /**
  * ActiveUserContext has the purpose of providing the currently active user
  * as well as related values, modifiers and related operations such as login
@@ -121,8 +120,6 @@ export const ActiveUserContextProvider = ({
         }
         // If a token is present send a logout-request and clear the localStorage afterwards
         api.get("/user/logout").finally(resetAuthorization);
-        //navigate to login page
-        navigate("/user/login");
     };
 
     /**
