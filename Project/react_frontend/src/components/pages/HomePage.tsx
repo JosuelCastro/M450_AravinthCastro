@@ -21,7 +21,7 @@ export default function HomePage() {
           Welcome to OurCool Website
         </Typography>
         <Typography variant='body1' paragraph>
-          Website made by Aryan Aravinth and Josuel Castro
+          Website made by Aryan Aravinth and Josuel Castro made with love❤️
         </Typography>
         <Button variant='contained' color='primary' href='/userprofile'>
           Get Started
