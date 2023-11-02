@@ -6,7 +6,7 @@ on:
       - 'Project/spring_backend/**'
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,6 +19,6 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
-      - name: Build with Gradle
-        run: ./gradlew build
+      - name: Run unit tests
+        run: ./gradlew test
         working-directory: Project/spring_backend
