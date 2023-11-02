@@ -35,11 +35,11 @@ jobs:
         working-directory: Project/react_frontend
 
       - name: Frontend Build
-        run: npm build
+        run: yarn build
         working-directory: Project/react_frontend
 
       - name: Start Frontend
-        run: npm start
+        run: yarn start
         working-directory: Project/react_frontend
 
       - name: Run Cypress tests
