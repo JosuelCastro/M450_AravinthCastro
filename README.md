@@ -14,6 +14,6 @@ Dieses Modul ist in mehrere Abschnitte unterteilt, um sicherzustellen, dass Sie 
 
 ## Projekt
 
-[Projekt](https://github.com/JosuelCastro/M450_AravinthCastro/tree/main/Project)<br> 
-[Dokumentation](https://docs.google.com/document/d/1-Qi--KnuwT_QDi3vDtWFlPaYekmrV4RaM3eJXnIXkOQ/edit?usp=sharing)<br> 
+[Projekt (OurSpace)](https://github.com/JosuelCastro/M450_AravinthCastro/tree/main/Project)<br> 
+[Dokumentation](https://docs.google.com/document/d/1-Qi--KnuwT_QDi3vDtWFlPaYekmrV4RaM3eJXnIXkOQ/edit?usp=sharing)(Oder auch im Root Folder)<br> 
 [CI/CD Pipelines](https://github.com/JosuelCastro/M450_AravinthCastro/actions)
