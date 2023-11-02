@@ -1,7 +1,5 @@
 package com.tbz.m450.domain.userprofile;
 
-import com.tbz.m450.domain.userprofile.UserProfile;
-import com.tbz.m450.domain.userprofile.UserProfileRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
