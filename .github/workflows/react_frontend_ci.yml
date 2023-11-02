@@ -38,10 +38,11 @@ jobs:
         run: yarn build
         working-directory: Project/react_frontend
 
-      - name: Start Frontend
-        run: yarn start
-        working-directory: Project/react_frontend
-
-      - name: Run Cypress tests
-        run: npx cypress run --spec '**/spec.cy.ts'
-        working-directory: Project/react_frontend
+      - name: Run Cypress Tests
+        uses: cypress-io/github-action@v2
+        with:
+          config-file: cypress.config.ts
+          working-directory: Project/react_frontend
+          start: yarn start
+          wait-on: 'http://localhost:3000'  # Update this line
+          wait-on-timeout: 120
