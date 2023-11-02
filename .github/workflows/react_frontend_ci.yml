@@ -6,7 +6,7 @@ on:
       - 'Project/react_frontend/**'
 
 jobs:
-  build:
+  cypress-tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,10 +22,6 @@ jobs:
         run: npm install
         working-directory: Project/react_frontend
 
-      - name: Run tests
-        run: npm test
-        working-directory: Project/react_frontend
-
-      - name: Build
-        run: npm run build
+      - name: Run Cypress tests
+        run: npx cypress run --spec '**/spec.cy.ts'
         working-directory: Project/react_frontend
